@@ -1,0 +1,23 @@
+using System;
+
+namespace methodclass.assignment
+{
+    class Program
+    {
+        static void Main()
+        {
+            int x = 10;
+            int y = 20;
+            if (x > 50)
+            {
+                Console.WriteLine("the statement is true:");
+                Console.ReadLine();
+            }
+            else
+            {
+                Console.WriteLine("the statement is false:");
+                Console.ReadLine();
+            }
+        }
+    }
+}
